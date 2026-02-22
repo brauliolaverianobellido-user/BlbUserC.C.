@@ -1,0 +1,478 @@
+*{
+    box-sizing:  border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+
+.cabecera .contenedor1{
+    background-color: black;
+    display: flex;    
+    justify-content:center; 
+}
+
+header img{
+    height: 100px; 
+    padding: 10px;
+}
+
+.navegacion-principal{
+    background-color:#FFFDD0;
+}
+
+.navegacion-principal a:hover{   
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px #00000026;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    padding: 0.5rem 1rem;    
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+        z-index: 1000;
+}
+
+.contenedor2 .menu-principal{
+    display: flex;  
+    gap: 25px;
+    justify-content: center;
+    padding: 10px;   
+}
+
+.articulo-primero{
+    padding: 20px;
+}
+
+.Barra-Bienvenida{
+    margin: 0 0 0 auto;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 8px 20px #00000026;
+}
+
+.texto1{
+    padding: 45px;
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+    text-align: right;
+    font-family: trajan ;
+}
+
+.contenido-boton1{
+    padding: 20px;
+    gap: 10px;
+    background-color: #ececec;
+    border-radius: 12px;
+}
+
+.cta-hero{
+    display: inline-block;
+    background-color: #686868;
+    color: #ffffff;
+    padding: 0.8rem 1.8rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    vertical-align: middle; 
+}
+
+.cta-hero:hover{
+    background-color: #777;
+    color: #ffffff;
+    box-shadow: 0 0 20px #D7AE00;
+    transform: translateY(-3px);
+}
+
+.fa-solid{
+    padding: 0.8rem 0.8rem;
+    color: #000000; 
+    font-size: 1.2rem;
+}
+
+.contenedor3 .seccion2{
+    padding: 20px;
+}
+
+.titulo-hero1{
+    font-size: 40px;
+    color: #1D344B;
+    font-family: antiqua-caps ;
+    text-decoration: underline;
+    padding: 20px;    
+}
+
+.titulo-hero2{
+    font-size: 25px;
+    color: #595959;
+    font-family: georgia ;
+    padding: 20px;    
+}
+
+.texto2{
+    padding: 20px;    
+    line-height: 1.6;
+    width: 50%;
+    font-size: 19px;
+    text-align: left;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.imagen1{
+    display: flex;    
+    justify-content:center;
+    padding: 20px;
+    margin: 0 auto;    
+}
+
+.contenedor4 .seccion3{
+    padding: 20px;    
+}
+
+.texto3{
+    padding: 20px;    
+    line-height: 1.6;
+    width: 50%;
+    font-size: 19px;
+    text-align: left;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;    
+}
+
+.contenedor-videos{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    padding: 20px;  
+}
+
+.texto4{
+    padding: 20px;    
+    line-height: 1.6;
+    width: 50%;
+    font-size: 19px;
+    text-align: left;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;    
+}
+
+.contenedor-audios{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;  
+    padding: 20px;    
+}
+
+.contenedor7{
+    padding: 20px;        
+}
+
+.perfil{
+    display: flex;    
+    justify-content:center;
+    padding: 20px;
+    margin: 0 auto; 
+    width: 20%;     
+}
+
+.texto7{
+    padding: 20px;    
+    line-height: 1.6;  
+    font-size: 1.1rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;      
+}
+
+.texto8{
+    text-align: center;   
+    font-size: 19px;
+    color: #595959;
+    font-family: times ;
+    font-style: italic;   
+}
+
+.firma-img{
+    display: flex;    
+    justify-content:center;
+    padding: 20px;
+    margin: 0 auto; 
+    width: 40%;  
+    margin: 0 auto;  
+}
+
+.contenedor8{
+    padding: 20px;   
+}
+
+.texto9{
+    padding: 20px;    
+    line-height: 1.6;  
+    font-size: 1.1rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;       
+}
+
+.frase{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-frases{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.imagen-frase{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;    
+}
+
+.contenido-frase{
+    padding: 20px;    
+}
+
+.titulo-hero4{
+    font-size: 25px;
+    color: #000000;
+    font-family: Roboto ;
+    padding: 20px;        
+}
+
+.contenedor9{
+    padding: 20px;       
+}
+
+.texto10{
+    padding: 20px;    
+    line-height: 1.6;  
+    font-size: 1.1rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;      
+}
+
+.trabajo{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-trabajos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.imagen-trabajo{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;    
+}
+
+.contenido-trabajo{
+    padding: 20px;    
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 30px;   
+}
+
+.titulo-hero4{
+    text-align: center;   
+    font-size: 20px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px #00000014;
+  transition: 0.3s;
+}
+
+.service-card i {
+  font-size: 2.5rem;
+  color: #797979;
+  margin-bottom: 15px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px #00000026;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: var(--font-title);
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: none;
+  
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #b8924f;
+  color: var(--white);
+  padding: 0.9rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #948772;
+  transform: translateY(-2px);
+}
+
+.footer-primario{
+    background-color:#898989;
+    padding: 20px;     
+    font-size: 0.9em;
+}
+
+.contenedor-Logo{
+    display: flex;    
+    justify-content:center;
+    padding: 20px;
+    margin: 0 auto;    
+}
+
+.Logo-Blanco{
+    height: 80px; 
+}
+
+.contenedor5{
+    padding: 15px;        
+}
+
+.titulo-hero3{
+    text-align: center;   
+    font-size: 20px;
+    color: #ffffff;
+    font-family: antiqua-caps ;
+    text-decoration: underline;         
+}
+
+
+.texto5{
+    text-align: center;   
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.contenedor5-5{
+    padding: 15px;      
+}
+
+
+.texto5-5{
+    text-align: center;   
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;  
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: white;
+  font-size: 1.8rem;
+  padding: 15px;
+  border-radius: 50%;
+  z-index: 999;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+.footer-secundario{
+    background-color:#6A6869;
+    padding: 15px;     
+}
+
+.contenedor6{
+    padding: 15px;              
+}
+
+.texto6{
+    text-align: center;   
+    font-size: 11px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;    
+}
